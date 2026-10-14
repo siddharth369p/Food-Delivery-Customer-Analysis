@@ -1,0 +1,11 @@
+﻿item_id,res_id,food_item,price,availibility
+1001,1001,Paneer Butter Masala,240,1
+1002,1001,  Garlic Naan ,45,1
+1003,1002,Margherita Pizza,299,1
+1004,1002,Farmhouse PIZZA,399,1
+1005,1003,Quinoa Salad,220,1
+1006,1003,Fruit Bowl,150,1
+1007,1004,Classic Burger,180,1
+1008,1004,French Fries,99,1
+1009,1005,Veg Hakka Noodles,210,1
+1010,1005,Chilli Paneer,260,1

@@ -1,0 +1,11 @@
+﻿customer_id,customer_name,gender,contact,Address,signup_date
+1001,Aarav Sharma,Male,9200001001,"12, MG Road, Delhi",2025-11-02 10:15:00
+1002,  PRIYA SINGH ,FEMALE,9200001002,"  45 Park Street, Kolkata ",2025-11-10 11:20:00
+1003,Rahul  Verma,male ,9200001003,"Sector 18, Noida",2025-12-01 09:00:00
+1004,Neha Gupta,Female,9200001004,"Flat 2B, Jaipur",2025-12-15 17:40:00
+1005,AMIT KUMAR,MALE,9200001005,"  7 Lake View, Bhopal",2026-01-03 12:00:00
+1006,Sara Khan,female,9200001006,"Andheri West, Mumbai",2026-01-12 14:30:00
+1007,Vikram Patel,Male,9200001007,"Ring Road, Surat",2026-02-02 08:45:00
+1008,  ananya Das,Female,9200001008,"Salt Lake, Kolkata",2026-02-20 19:05:00
+1009,Mohit Jain,Male,9200001009,"Civil Lines, Kanpur",2026-03-07 10:00:00
+1010,Isha Mehta,female,9200001010,"  Vashi, Navi Mumbai ",2026-03-21 16:25:00
