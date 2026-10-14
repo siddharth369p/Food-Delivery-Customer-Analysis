@@ -1,0 +1,91 @@
+
+
+# Python
+
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Python environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# ==============================
+
+# IDEs and editors
+
+# ==============================
+
+.vscode/
+.idea/
+
+# ==============================
+
+# SQL Server / SSMS
+
+# ==============================
+
+.vs/
+*.ssms_suo
+*.user
+*.suo
+
+# ==============================
+
+# Power BI temporary files
+
+# ==============================
+
+~$*.pbix
+*.tmp
+
+# ==============================
+
+# Operating system files
+
+# ==============================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+
+# Logs and temporary files
+
+# ==============================
+
+*.log
+temp/
+tmp/
+
+# ==============================
+
+# Data exports and backups
+
+# Uncomment if you don't want to track these files
+
+# ==============================
+
+# *.xlsx
+
+# *.xls
+
+# *.parquet
+
+# *.bak
