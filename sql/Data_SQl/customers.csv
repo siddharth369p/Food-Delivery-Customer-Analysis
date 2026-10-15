@@ -1,0 +1,61 @@
+,customer_id,customer_name,gender,contact,Address,signup_date
+0,1,Aarav Sharma,Male,9876500001,"Sector 15, Noida",2026-10-13 13:36:10.873
+1,2,Priya Verma,Female,9876500002,"Sector 62, Noida",2026-10-13 13:36:10.873
+2,3,Rahul Singh,Male,9876500003,"Sector 18, Noida",2026-10-13 13:36:10.873
+3,4,Ananya Gupta,Female,9876500004,"Indirapuram, Ghaziabad",2026-10-13 13:36:10.873
+4,5,Vikram Yadav,Male,9876500005,"Sector 50, Noida",2026-10-13 13:36:10.873
+5,6,Sneha Mishra,Female,9876500006,Greater Noida West,2026-10-13 13:36:10.873
+6,7,Aditya Kumar,Male,9876500007,"Sector 137, Noida",2026-10-13 13:36:10.873
+7,8,Pooja Agarwal,Female,9876500008,"Vaishali, Ghaziabad",2026-10-13 13:36:10.873
+8,9,Rohit Patel,Male,9876500009,"Sector 76, Noida",2026-10-13 13:36:10.873
+9,10,Neha Saxena,Female,9876500010,"Sector 12, Noida",2026-10-13 13:36:10.873
+10,11,Karan Malhotra,Male,9876500011,"Sector 22, Noida",2026-10-13 13:36:10.873
+11,12,Simran Kaur,Female,9876500012,"Crossings Republik, Ghaziabad",2026-10-13 13:36:10.873
+12,13,Amit Chauhan,Male,9876500013,"Sector 44, Noida",2026-10-13 13:36:10.873
+13,14,Kavya Joshi,Female,9876500014,"Sector 121, Noida",2026-10-13 13:36:10.873
+14,15,Manish Tiwari,Male,9876500015,"Sector 78, Noida",2026-10-13 13:36:10.873
+15,16,Riya Kapoor,Female,9876500016,"Alpha 1, Greater Noida",2026-10-13 13:36:10.873
+16,17,Saurabh Pandey,Male,9876500017,"Sector 51, Noida",2026-10-13 13:36:10.873
+17,18,Ishita Mehta,Female,9876500018,"Sector 104, Noida",2026-10-13 13:36:10.873
+18,19,Deepak Saini,Male,9876500019,"Sector 19, Noida",2026-10-13 13:36:10.873
+19,20,Meera Nair,Female,9876500020,"Sector 137, Noida",2026-10-13 13:36:10.873
+20,21,Arjun Thakur,Male,9876500021,"Beta 2, Greater Noida",2026-10-13 13:36:10.873
+21,22,Divya Reddy,Female,9876500022,"Sector 75, Noida",2026-10-13 13:36:10.873
+22,23,Nikhil Jain,Male,9876500023,"Sector 45, Noida",2026-10-13 13:36:10.873
+23,24,Shreya Das,Female,9876500024,"Sector 100, Noida",2026-10-13 13:36:10.873
+24,25,Varun Bansal,Male,9876500025,"Sector 16, Noida",2026-10-13 13:36:10.873
+25,26,Aisha Khan,Female,9876500026,"Sector 49, Noida",2026-10-13 13:36:10.873
+26,27,Mohit Rawat,Male,9876500027,"Raj Nagar, Ghaziabad",2026-10-13 13:36:10.873
+27,28,Tanvi Arora,Female,9876500028,"Sector 93, Noida",2026-10-13 13:36:10.873
+28,29,Rajat Choudhary,Male,9876500029,"Sector 120, Noida",2026-10-13 13:36:10.873
+29,30,Nandini Roy,Female,9876500030,"Sector 34, Noida",2026-10-13 13:36:10.873
+30,31,Abhishek Dubey,Male,9876500031,"Sector 52, Noida",2026-10-13 13:36:10.873
+31,32,Sakshi Bhatia,Female,9876500032,"Sector 128, Noida",2026-10-13 13:36:10.873
+32,33,Harsh Vardhan,Male,9876500033,"Surajpur, Greater Noida",2026-10-13 13:36:10.873
+33,34,Muskan Ali,Female,9876500034,"Sector 70, Noida",2026-10-13 13:36:10.873
+34,35,Gaurav Mishra,Male,9876500035,"Sector 41, Noida",2026-10-13 13:36:10.873
+35,36,Palak Sinha,Female,9876500036,"Sector 143, Noida",2026-10-13 13:36:10.873
+36,37,Yash Thakur,Male,9876500037,"Sector 63, Noida",2026-10-13 13:36:10.873
+37,38,Komal Pandey,Female,9876500038,"Sector 21, Noida",2026-10-13 13:36:10.873
+38,39,Pranav Goyal,Male,9876500039,"Sector 110, Noida",2026-10-13 13:36:10.873
+39,40,Ritika Sen,Female,9876500040,"Sector 137, Noida",2026-10-13 13:36:10.873
+40,41,Akash Tripathi,Male,9876500041,"Sector 27, Noida",2026-10-13 13:36:10.873
+41,42,Payal Chawla,Female,9876500042,"Sector 48, Noida",2026-10-13 13:36:10.873
+42,43,Shivam Saxena,Male,9876500043,"Knowledge Park, Greater Noida",2026-10-13 13:36:10.873
+43,44, Kriti Anand,Female,9876500044,"Sector 74, Noida",2026-10-13 13:36:10.873
+44,45,Devendra Pal,Male,9876500045,"Sector 31, Noida",2026-10-13 13:36:10.873
+45,46,Ira Malhotra,Female,9876500046,"Sector 135, Noida",2026-10-13 13:36:10.873
+46,47,Sameer Qureshi,Male,9876500047,"Sector 55, Noida",2026-10-13 13:36:10.873
+47,48,Bhavna Tomar,Female,9876500048,"Sector 122, Noida",2026-10-13 13:36:10.873
+48,49,Ankit Srivastava,Male,9876500049,"Sector 20, Noida",2026-10-13 13:36:10.873
+49,50,Tanya Bhardwaj,Female,9876500050,"Pari Chowk, Greater Noida",2026-10-13 13:36:10.873
+50,51,Aarav Sharma,Male,9200001001,"12, MG Road, Delhi",2025-11-02 10:15:00.000
+51,52,  PRIYA SINGH ,FEMALE,9200001002,"  45 Park Street, Kolkata ",2025-11-10 11:20:00.000
+52,53,Rahul  Verma,male ,9200001003,"Sector 18, Noida",2025-12-01 09:00:00.000
+53,54,Neha Gupta,Female,9200001004,"Flat 2B, Jaipur",2025-12-15 17:40:00.000
+54,55,AMIT KUMAR,MALE,9200001005,"  7 Lake View, Bhopal",2026-01-03 12:00:00.000
+55,56,Sara Khan,female,9200001006,"Andheri West, Mumbai",2026-01-12 14:30:00.000
+56,57,Vikram Patel,Male,9200001007,"Ring Road, Surat",2026-02-02 08:45:00.000
+57,58,  ananya Das,Female,9200001008,"Salt Lake, Kolkata",2026-02-20 19:05:00.000
+58,59,Mohit Jain,Male,9200001009,"Civil Lines, Kanpur",2026-03-07 10:00:00.000
+59,60,Isha Mehta,female,9200001010,"  Vashi, Navi Mumbai ",2026-03-21 16:25:00.000

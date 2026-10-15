@@ -1,0 +1,51 @@
+,item_id,res_id,food_item,cuisine,price,availability
+0,2,1,Paneer Tikka,Indian              ,250.0,True
+1,3,2,Veg Burger,Chinese             ,120.0,True
+2,4,3,Chicken Biryani,Indian              ,280.0,True
+3,5,4,Masala Dosa,South Indian        ,100.0,True
+4,6,5,White Sauce Pasta,Italian             ,220.0,True
+5,7,6,Hakka Noodles,Chinese             ,180.0,True
+6,8,7,Margherita Pizza,Italian             ,299.0,True
+7,9,8,Veg Momos,Chinese             ,100.0,True
+8,10,9,Dal Makhani,Indian              ,200.0,True
+9,11,10,Chocolate Brownie,Dessert             ,120.0,True
+10,12,11,Butter Chicken,Indian              ,320.0,True
+11,13,12,French Fries,Fast Food           ,90.0,True
+12,14,13,Spring Rolls,Chinese             ,150.0,True
+13,15,14,Cheese Pizza,Italian             ,350.0,True
+14,16,15,Chole Bhature,Indian              ,140.0,True
+15,17,16,Idli Sambar,South Indian        ,80.0,True
+16,18,17,Chicken Burger,Fast Food           ,180.0,True
+17,19,18,Veg Fried Rice,Chinese             ,160.0,True
+18,20,19,Paneer Butter Masala,Indian              ,240.0,True
+19,21,20,Mango Shake,Beverages           ,110.0,True
+20,22,21,Chicken Tikka,Indian              ,290.0,True
+21,23,22,Garlic Bread,Italian             ,130.0,True
+22,24,23,Aloo Paratha,Indian              ,80.0,True
+23,25,24,Chicken Noodles,Chinese             ,220.0,True
+24,26,25,Veg Sandwich,Fast Food           ,100.0,True
+25,27,26,Fish Curry,Indian              ,300.0,True
+26,28,27,Cold Coffee,Beverages           ,120.0,True
+27,29,28,Pav Bhaji,Indian              ,130.0,True
+28,30,29,Chicken Wings,Fast Food           ,260.0,True
+29,31,30,Rasgulla,Dessert             ,80.0,True
+30,32,31,Kadai Paneer,Indian              ,230.0,True
+31,33,32,Cheese Momos,Chinese             ,160.0,True
+32,34,33,Veg Lasagna,Italian             ,280.0,True
+33,35,34,Samosa,Indian              ,30.0,True
+34,36,35,Egg Fried Rice,Chinese             ,190.0,True
+35,37,36,Oreo Shake,Beverages           ,150.0,True
+36,38,37,Tandoori Roti,Indian              ,20.0,True
+37,39,38,Chicken Wrap,Fast Food           ,190.0,True
+38,40,39,Mushroom Pizza,Italian             ,320.0,True
+39,41,40,Gulab Jamun,Dessert             ,70.0,True
+40,42,41,Rajma Chawal,Indian              ,140.0,True
+41,43,42,Prawn Curry,Indian              ,350.0,True
+42,44,43,Veg Spring Roll,Chinese             ,120.0,True
+43,45,44,Pasta Alfredo,Italian             ,240.0,True
+44,46,45,Masala Chai,Beverages           ,30.0,True
+45,47,46,Chicken Shawarma,Middle Eastern      ,220.0,True
+46,48,47,Dahi Puri,Indian              ,90.0,True
+47,49,48,Tandoori Chicken,Indian              ,350.0,True
+48,50,49,Lemon Soda,Beverages           ,60.0,False
+49,51,50,Ice Cream Sundae,Dessert             ,130.0,True
