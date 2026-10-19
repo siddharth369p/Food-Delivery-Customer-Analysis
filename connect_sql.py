@@ -1,5 +1,4 @@
 
-
 import pandas as pd
 import pyodbc
 from sqlalchemy import create_engine
@@ -21,7 +20,6 @@ from urllib.parse import quote_plus
 #         return None
 #   else:
 #     return engine
-
 
 from sqlalchemy import create_engine
 from sqlalchemy.engine import URL
