@@ -23,16 +23,23 @@ def clean_data(df=pd.DataFrame()):
    df.dropna(inplace=True)
    df.drop_duplicates(inplace=True)
    for col in df.select_dtypes(include='object').columns:
+     
      df[col]=df[col].str.strip()
+     df[col]=df[col].str.lower()
+     
    return df 
 
-def load_clean_data():
-  data=load_data()
-  clean_df={}
-  for table_name,table_data in data.items():
-    clean_data[table_name]=clean_data[table_data]
-  return clean_df
 
+def load_clean_data():
+
+    data = load_data()
+
+    clean_df = {}
+
+    for table_name, table_data in data.items():
+        clean_df[table_name] = table_data
+
+    return clean_df
 # load_clean_data()
 
 
