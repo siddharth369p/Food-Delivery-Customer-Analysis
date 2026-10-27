@@ -19,4 +19,4 @@ def delivery_status(delivery):
 
 
 print(delivery_status(delivery))
-# print(analyze_delivery(orders,delivery))
+print(analyze_delivery(orders,delivery))
