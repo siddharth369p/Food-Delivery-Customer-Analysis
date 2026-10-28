@@ -3,6 +3,7 @@ from cleaning_data import load_clean_data
 from customer_analysis import customer_analysis
 from orders_analysis import analyze_order,monthly_orders
 from delivery_analysis import analyze_delivery,delivery_status
+from connect_sql import connect_database
 
 st.set_page_config(page_title="Food Delivery Analysis",layout="wide")
 
@@ -87,4 +88,11 @@ with DA:
   st.dataframe(analyze_delivery(order,delivery))
 
 st.sidebar.header("Food Delivery Database")
-st.sidebar.subheader
+# st.sidebar.subheader
+
+engine = connect_database()
+
+if engine is not None:
+  st.sidebar.subheader("Status :🟢Connected")
+else:
+  st.sidebar.subheader("Status:🔴Not Connected")

@@ -1,75 +1,78 @@
 
 import pandas as pd
-from pathlib import Path
-from connect_sql import connect_tables
+from sqlalchemy import create_engine
+from sqlalchemy.engine import URL
 
 
-def load_data():
-    """Load SQL tables and save copies as CSV files."""
+def connect_database():
+    """Create and test the SQL Server connection."""
 
-    tables = connect_tables()
+    connection_url = URL.create(
+        "mssql+pyodbc",
+        query={
+            "odbc_connect": (
+                "DRIVER={ODBC Driver 17 for SQL Server};"
+                "SERVER=SID369;"
+                "DATABASE=food_delivery;"
+                "Trusted_Connection=yes;"
+            )
+        }
+    )
 
-    table_names = [
-        "customers",
-        "Menu_item",
-        "Orders",
-        "Rest",
-        "Delivery"
-    ]
+    engine = create_engine(connection_url)
 
-    if len(tables) != len(table_names):
-        raise ValueError(
-            f"Expected {len(table_names)} tables, "
-            f"received {len(tables)}."
+    try:
+        with engine.connect() as connection:
+            connection.exec_driver_sql("SELECT 1")
+
+        print("Database connected successfully!")
+        return engine, True
+
+    except Exception as error:
+        engine.dispose()
+        print(f"Database connection failed: {error}")
+        return None, False
+
+
+def connect_tables():
+    """Fetch all five database tables as Pandas DataFrames."""
+
+    engine, status = connect_database()
+
+    if not status or engine is None:
+        raise ConnectionError(
+            "Could not connect to SQL Server. "
+            "Check your server name and database."
         )
 
-    # Create the directory if it doesn't exist
-    output_dir = Path("sql") / "Data_SQl"
-    output_dir.mkdir(parents=True, exist_ok=True)
+    try:
+        customers = pd.read_sql_query(
+            "SELECT * FROM customers", engine
+        )
 
-    data = {}
+        menu_item = pd.read_sql_query(
+            "SELECT * FROM Menu_item", engine
+        )
 
-    for name, table in zip(table_names, tables):
+        orders = pd.read_sql_query(
+            "SELECT * FROM Orders", engine
+        )
 
-        if not isinstance(table, pd.DataFrame):
-            raise TypeError(
-                f"{name} must be a Pandas DataFrame."
-            )
+        rest = pd.read_sql_query(
+            "SELECT * FROM Restaurants", engine
+        )
 
-        # Save each table to CSV
-        csv_path = output_dir / f"{name}.csv"
-        table.to_csv(csv_path, index=False)
+        delivery = pd.read_sql_query(
+            "SELECT * FROM Delivery", engine
+        )
 
-        data[name] = table
+        print("All five tables loaded successfully.")
 
-    return data
+        return customers, menu_item, orders, rest, delivery
 
+    except Exception as error:
+        print(f"Failed to load database tables: {error}")
+        raise
 
-def clean_data(df):
-    """Clean duplicate rows and whitespace in text columns."""
-
-    df = df.copy()
-
-    # Remove duplicate records
-    df = df.drop_duplicates()
-
-    # Remove leading and trailing whitespace
-    for col in df.select_dtypes(include=["object"]).columns:
-        df[col] = df[col].str.strip()
-
-    # Do not automatically drop missing rows or lowercase
-    # every text value, as that may alter valid source data.
-
-    return df
-
-
-def load_clean_data():
-    """Load and clean every table."""
-
-    data = load_data()
-    clean_df = {}
-
-    for table_name, table_data in data.items():
-        clean_df[table_name] = clean_data(table_data)
-
-    return clean_df
+    finally:
+        engine.dispose()

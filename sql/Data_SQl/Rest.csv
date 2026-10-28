@@ -1,56 +1,56 @@
-,Res_id,Res_name,contact,address,cuisine,rating
-0,1,Spice Garden,9810000001,"Sector 18, Noida",Indian              ,5
-1,2,Dragon House,9810000002,"Sector 62, Noida",Chinese             ,4
-2,3,Pizza Corner,9810000003,"Sector 15, Noida",Italian             ,4
-3,4,South Spice,9810000004,"Sector 50, Noida",South Indian        ,5
-4,5,Burger Point,9810000005,"Sector 12, Noida",Fast Food           ,3
-5,6,Royal Biryani,9810000006,"Sector 76, Noida",Indian              ,5
-6,7,Pasta Palace,9810000007,"Sector 137, Noida",Italian             ,4
-7,8,Tandoori Nights,9810000008,"Indirapuram, Ghaziabad",Indian              ,5
-8,9,Noodle Street,9810000009,"Sector 44, Noida",Chinese             ,3
-9,10,Sweet Treats,9810000010,"Sector 22, Noida",Dessert             ,4
-10,11,Curry House,9810000011,"Sector 51, Noida",Indian              ,4
-11,12,Momo Junction,9810000012,"Sector 18, Noida",Chinese             ,5
-12,13,Italian Bistro,9810000013,"Sector 104, Noida",Italian             ,4
-13,14,Dosa Express,9810000014,"Sector 75, Noida",South Indian        ,4
-14,15,Food Factory,9810000015,Greater Noida West,Fast Food           ,3
-15,16,The Food Court,9810000016,"Alpha 1, Greater Noida",Indian              ,4
-16,17,Chilli Flames,9810000017,"Sector 63, Noida",Chinese             ,5
-17,18,Cafe Delight,9810000018,"Sector 49, Noida",Cafe                ,4
-18,19,Biryani Blues,9810000019,"Sector 120, Noida",Indian              ,5
-19,20,Pizza Hub,9810000020,"Sector 34, Noida",Italian             ,3
-20,21,Punjabi Dhaba,9810000021,"Sector 27, Noida",Punjabi             ,4
-21,22,Wok Express,9810000022,"Sector 93, Noida",Chinese             ,4
-22,23,Grill Masters,9810000023,"Sector 45, Noida",Fast Food           ,5
-23,24,Healthy Bites,9810000024,"Sector 128, Noida",Healthy Food        ,4
-24,25,Kebab Kingdom,9810000025,"Sector 19, Noida",Mughlai             ,5
-25,26,The Sweet Spot,9810000026,"Vaishali, Ghaziabad",Dessert             ,4
-26,27,Urban Tadka,9810000027,"Sector 78, Noida",Indian              ,5
-27,28,Cafe Mocha,9810000028,"Sector 100, Noida",Cafe                ,3
-28,29,Rolls & More,9810000029,"Sector 121, Noida",Fast Food           ,4
-29,30,Sushi World,9810000030,"Sector 137, Noida",Japanese            ,4
-30,31,Chaat Bazaar,9810000031,"Sector 15, Noida",Indian              ,5
-31,32,Steak House,9810000032,"Sector 62, Noida",Continental         ,4
-32,33,Taco Fiesta,9810000033,"Sector 50, Noida",Mexican             ,3
-33,34,The Biryani Pot,9810000034,"Sector 76, Noida",Indian              ,4
-34,35,Pancake Cafe,9810000035,"Sector 18, Noida",Cafe                ,5
-35,36,Flavours of India,9810000036,"Sector 110, Noida",Indian              ,4
-36,37,Chinese Wok,9810000037,"Sector 52, Noida",Chinese             ,3
-37,38,Wrap Station,9810000038,"Sector 143, Noida",Fast Food           ,4
-38,39,The Dessert Bar,9810000039,"Sector 74, Noida",Dessert             ,5
-39,40,Coastal Kitchen,9810000040,"Sector 41, Noida",Seafood             ,4
-40,41,Veggie Delight,9810000041,"Beta 2, Greater Noida",Vegetarian          ,4
-41,42,The Grill House,9810000042,"Sector 55, Noida",Continental         ,5
-42,43,Cafe Aroma,9810000043,"Sector 20, Noida",Cafe                ,3
-43,44,Royal Thali,9810000044,"Knowledge Park, Greater Noida",Indian              ,4
-44,45,Pasta & More,9810000045,"Sector 135, Noida",Italian             ,5
-45,46,Bowl Company,9810000046,"Sector 48, Noida",Healthy Food        ,4
-46,47,Street Food Hub,9810000047,"Sector 31, Noida",Street Food         ,3
-47,48,The Curry Leaf,9810000048,"Sector 122, Noida",South Indian        ,5
-48,49,Flame & Fork,9810000049,"Pari Chowk, Greater Noida",Continental         ,4
-49,50,Midnight Munchies,9810000050,"Crossings Republik, Ghaziabad",Fast Food           ,4
-50,51,Spice Hub,9300001001,"Connaught Place, Delhi",Indian              ,5
-51,52,  PIZZA POINT ,9300001002,"Park Street, Kolkata",Italian             ,4
-52,53,Green Bowl,9300001003,"Sector 18, Noida",Healthy             ,4
-53,54,Burger Barn,9300001004,"Malviya Nagar, Jaipur",Fast Food           ,3
-54,55,Noodle House,9300001005,"Andheri, Mumbai",Chinese             ,5
+Res_id,Res_name,contact,address,cuisine,rating
+1,Spice Garden,9810000001,"Sector 18, Noida",Indian              ,5
+2,Dragon House,9810000002,"Sector 62, Noida",Chinese             ,4
+3,Pizza Corner,9810000003,"Sector 15, Noida",Italian             ,4
+4,South Spice,9810000004,"Sector 50, Noida",South Indian        ,5
+5,Burger Point,9810000005,"Sector 12, Noida",Fast Food           ,3
+6,Royal Biryani,9810000006,"Sector 76, Noida",Indian              ,5
+7,Pasta Palace,9810000007,"Sector 137, Noida",Italian             ,4
+8,Tandoori Nights,9810000008,"Indirapuram, Ghaziabad",Indian              ,5
+9,Noodle Street,9810000009,"Sector 44, Noida",Chinese             ,3
+10,Sweet Treats,9810000010,"Sector 22, Noida",Dessert             ,4
+11,Curry House,9810000011,"Sector 51, Noida",Indian              ,4
+12,Momo Junction,9810000012,"Sector 18, Noida",Chinese             ,5
+13,Italian Bistro,9810000013,"Sector 104, Noida",Italian             ,4
+14,Dosa Express,9810000014,"Sector 75, Noida",South Indian        ,4
+15,Food Factory,9810000015,Greater Noida West,Fast Food           ,3
+16,The Food Court,9810000016,"Alpha 1, Greater Noida",Indian              ,4
+17,Chilli Flames,9810000017,"Sector 63, Noida",Chinese             ,5
+18,Cafe Delight,9810000018,"Sector 49, Noida",Cafe                ,4
+19,Biryani Blues,9810000019,"Sector 120, Noida",Indian              ,5
+20,Pizza Hub,9810000020,"Sector 34, Noida",Italian             ,3
+21,Punjabi Dhaba,9810000021,"Sector 27, Noida",Punjabi             ,4
+22,Wok Express,9810000022,"Sector 93, Noida",Chinese             ,4
+23,Grill Masters,9810000023,"Sector 45, Noida",Fast Food           ,5
+24,Healthy Bites,9810000024,"Sector 128, Noida",Healthy Food        ,4
+25,Kebab Kingdom,9810000025,"Sector 19, Noida",Mughlai             ,5
+26,The Sweet Spot,9810000026,"Vaishali, Ghaziabad",Dessert             ,4
+27,Urban Tadka,9810000027,"Sector 78, Noida",Indian              ,5
+28,Cafe Mocha,9810000028,"Sector 100, Noida",Cafe                ,3
+29,Rolls & More,9810000029,"Sector 121, Noida",Fast Food           ,4
+30,Sushi World,9810000030,"Sector 137, Noida",Japanese            ,4
+31,Chaat Bazaar,9810000031,"Sector 15, Noida",Indian              ,5
+32,Steak House,9810000032,"Sector 62, Noida",Continental         ,4
+33,Taco Fiesta,9810000033,"Sector 50, Noida",Mexican             ,3
+34,The Biryani Pot,9810000034,"Sector 76, Noida",Indian              ,4
+35,Pancake Cafe,9810000035,"Sector 18, Noida",Cafe                ,5
+36,Flavours of India,9810000036,"Sector 110, Noida",Indian              ,4
+37,Chinese Wok,9810000037,"Sector 52, Noida",Chinese             ,3
+38,Wrap Station,9810000038,"Sector 143, Noida",Fast Food           ,4
+39,The Dessert Bar,9810000039,"Sector 74, Noida",Dessert             ,5
+40,Coastal Kitchen,9810000040,"Sector 41, Noida",Seafood             ,4
+41,Veggie Delight,9810000041,"Beta 2, Greater Noida",Vegetarian          ,4
+42,The Grill House,9810000042,"Sector 55, Noida",Continental         ,5
+43,Cafe Aroma,9810000043,"Sector 20, Noida",Cafe                ,3
+44,Royal Thali,9810000044,"Knowledge Park, Greater Noida",Indian              ,4
+45,Pasta & More,9810000045,"Sector 135, Noida",Italian             ,5
+46,Bowl Company,9810000046,"Sector 48, Noida",Healthy Food        ,4
+47,Street Food Hub,9810000047,"Sector 31, Noida",Street Food         ,3
+48,The Curry Leaf,9810000048,"Sector 122, Noida",South Indian        ,5
+49,Flame & Fork,9810000049,"Pari Chowk, Greater Noida",Continental         ,4
+50,Midnight Munchies,9810000050,"Crossings Republik, Ghaziabad",Fast Food           ,4
+51,Spice Hub,9300001001,"Connaught Place, Delhi",Indian              ,5
+52,  PIZZA POINT ,9300001002,"Park Street, Kolkata",Italian             ,4
+53,Green Bowl,9300001003,"Sector 18, Noida",Healthy             ,4
+54,Burger Barn,9300001004,"Malviya Nagar, Jaipur",Fast Food           ,3
+55,Noodle House,9300001005,"Andheri, Mumbai",Chinese             ,5
