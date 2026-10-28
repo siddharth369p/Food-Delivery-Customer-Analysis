@@ -26,42 +26,42 @@ except Exception as e:
 CA,OA,DA=st.tabs(['Customer Analysis','Order Analysis','Delivery Analysis'])
 
 with CA:
-  st.header("Customer Analysis Report")
+  st.header("👥Customer Analysis Report")
   st.divider()
   
   col1,col2,col3=st.columns(3)
   customer_analysis_data=customer_analysis(customer,order)
-  col1.header("Total Customer")
+  col1.header("Total Customer🧑‍🤝‍🧑")
   col1.subheader(customer_analysis_data['Total_customers'])
-  col2.header("Repeated Customer")
+  col2.header("🔁Repeated Customer")
   col2.subheader(customer_analysis_data['repeated_customers'])
-  col3.header("New Customer")
+  col3.header("New🆕 Customer")
   col3.subheader(customer_analysis_data['new customers'])
   
   st.divider()
   
-  st.header("Gender Analysis")
+  st.header("Gender⚧️ Analysis")
   st.bar_chart(customer_analysis_data['Gender count'])
   
   st.divider()
   
-  st.header("Area Analysis")
+  st.header("Area Analysis🏙️")
   st.bar_chart(customer_analysis_data['city count'])  
 
 with OA:
-  st.header("Order Analysis Report")
+  st.header("Order Analysis Report🛒")
   st.divider()
   
   order_analysis_data=analyze_order(order)
   col1,col2,col3=st.columns(3)
   
-  col1.header("Total Revenuer")
+  col1.header("Total Revenuer💰")
   col1.subheader(order_analysis_data['Revenue'])
   
-  col2.header("Total Orders")
+  col2.header("Total Orders📦")
   col2.subheader(order_analysis_data['Total_Orders'])
   
-  col3.header("Average Order value")
+  col3.header("Average Order value🧾")
   col3.subheader(order_analysis_data['Average Order value'])
   st.divider()
   
@@ -76,7 +76,7 @@ with DA:
   st.header("Delivery Status")
   d_m=analyze_delivery(order,delivery)['delivery_minutes']
   average_delivery_minutes=d_m.mean()
-  st.header("Average delivery time")
+  st.header("Average delivery 🕒time")
   st.subheader(average_delivery_minutes)
   
   st.divider()
