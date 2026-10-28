@@ -70,4 +70,21 @@ with OA:
   st.line_chart(monthly_order_data)
   
 with DA:
-  st.header("Delivery Analysis Report")
+  st.header("Delivery Analysis Report🚘")
+  st.divider()
+  st.header("Delivery Status")
+  d_m=analyze_delivery(order,delivery)['delivery_minutes']
+  average_delivery_minutes=d_m.mean()
+  st.header("Average delivery time")
+  st.subheader(average_delivery_minutes)
+  
+  st.divider()
+
+  status=delivery_status(delivery)
+  st.bar_chart(status)
+  st.divider()
+  st.subheader("Delivery Data Record")
+  st.dataframe(analyze_delivery(order,delivery))
+
+st.sidebar.header("Food Delivery Database")
+st.sidebar.subheader

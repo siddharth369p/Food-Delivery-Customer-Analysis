@@ -1,96 +1,75 @@
 
 import pandas as pd
-import pyodbc
-from sqlalchemy import create_engine
+from pathlib import Path
+from connect_sql import connect_tables
 
 
-from sqlalchemy import create_engine, text
-from urllib.parse import quote_plus
+def load_data():
+    """Load SQL tables and save copies as CSV files."""
 
-# SQL Server connection details
+    tables = connect_tables()
 
+    table_names = [
+        "customers",
+        "Menu_item",
+        "Orders",
+        "Rest",
+        "Delivery"
+    ]
 
-# def connect_database():
-#   try:
-#     engine=create_engine(url="mssql+pyodbc://root:root@SID369/food_delivery")
-  
-   
-#   except Exception as e:
-#         print("Connection failed:", e)
-#         return None
-#   else:
-#     return engine
-
-from sqlalchemy import create_engine
-from sqlalchemy.engine import URL
-
-def connect_database():
-    try:
-        connection_url = URL.create(
-            "mssql+pyodbc",
-            query={
-                "odbc_connect": (
-                    "DRIVER={ODBC Driver 17 for SQL Server};"
-                    "SERVER=SID369;"
-                    "DATABASE=food_delivery;"
-                    "Trusted_Connection=yes;"
-                )
-            }
+    if len(tables) != len(table_names):
+        raise ValueError(
+            f"Expected {len(table_names)} tables, "
+            f"received {len(tables)}."
         )
 
-        engine = create_engine(connection_url)
+    # Create the directory if it doesn't exist
+    output_dir = Path("sql") / "Data_SQl"
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-        with engine.connect() as conn:
-            print("Database connected successfully!")
+    data = {}
 
-        return engine
+    for name, table in zip(table_names, tables):
 
-    except Exception as e:
-        print("Database connection failed:", e)
-        return None
-    
-# connecting the tables-----
+        if not isinstance(table, pd.DataFrame):
+            raise TypeError(
+                f"{name} must be a Pandas DataFrame."
+            )
 
-def connect_tables():
-    try:
-        engine = connect_database()  # Call the function
+        # Save each table to CSV
+        csv_path = output_dir / f"{name}.csv"
+        table.to_csv(csv_path, index=False)
 
-        if engine is None:
-            print("Database connection failed")
-            return
+        data[name] = table
 
-        customers = pd.read_sql_query(
-            "SELECT * FROM customers;",
-            engine
-        )
-
-        Menu_item = pd.read_sql_query(
-            "SELECT * FROM Menu_item;",
-            engine
-        )
-        delivery=pd.read_sql_query(
-            "SELECT * FROM Delivery;",
-            engine)
-        
-        rest=pd.read_sql_query(
-            "SELECT * FROM Restaurants;",
-            engine)
-        orders=pd.read_sql_query(
-            "SELECT * FROM Orders;",
-            engine)
-        
-        # print("Customers Table:")
-        # print(customers)
-
-        # print("\nMenu Item Table:")
-        # print(Menu_item)
-
-    except Exception as e:
-        print("Connection failed to tables:", e)
-    else:
-      return customers,Menu_item,orders,rest,delivery
-
-# connect_tables() ## call the function
-   
+    return data
 
 
+def clean_data(df):
+    """Clean duplicate rows and whitespace in text columns."""
+
+    df = df.copy()
+
+    # Remove duplicate records
+    df = df.drop_duplicates()
+
+    # Remove leading and trailing whitespace
+    for col in df.select_dtypes(include=["object"]).columns:
+        df[col] = df[col].str.strip()
+
+    # Do not automatically drop missing rows or lowercase
+    # every text value, as that may alter valid source data.
+
+    return df
+
+
+def load_clean_data():
+    """Load and clean every table."""
+
+    data = load_data()
+    clean_df = {}
+
+    for table_name, table_data in data.items():
+        clean_df[table_name] = clean_data(table_data)
+
+    return clean_df
