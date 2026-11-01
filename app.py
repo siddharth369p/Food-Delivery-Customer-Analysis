@@ -49,7 +49,7 @@ with CA:
   st.bar_chart(customer_analysis_data['city count'])  
 
 with OA:
-  st.header("Order Analysis Report🛒")
+  st.header("Order Analysis Report")
   st.divider()
   
   order_analysis_data=analyze_order(order)
@@ -88,6 +88,7 @@ with DA:
   st.dataframe(analyze_delivery(order,delivery))
 
 st.sidebar.header("Food Delivery Database")
+#making sidebar sub header
 # st.sidebar.subheader
 
 engine = connect_database()
