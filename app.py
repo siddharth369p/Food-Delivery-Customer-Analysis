@@ -88,7 +88,7 @@ with DA:
   st.dataframe(analyze_delivery(order,delivery))
 
 st.sidebar.header("Food Delivery Database")
-#making sidebar sub header
+
 # st.sidebar.subheader
 
 engine = connect_database()
