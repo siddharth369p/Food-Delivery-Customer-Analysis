@@ -207,9 +207,11 @@ The analysis can help food delivery businesses better understand their customers
 
 ## 👨‍💻 Author
 
-**Siddharth Pathak**
+*Siddharth Pathak*
 
 Data Analytics | Python | SQL | Business Intelligence
+
+
 
 ---
 
