@@ -97,3 +97,5 @@ if engine is not None:
   st.sidebar.subheader("Status :🟢Connected")
 else:
   st.sidebar.subheader("Status:🔴Not Connected")
+# else:
+#   st.sidebar.subheader("Status:🔴Not Connected")
